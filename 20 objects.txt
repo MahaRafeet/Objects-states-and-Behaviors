@@ -1,6 +1,9 @@
 1- Lamp
 States: On, Off
-Behaviors: Turn on(), Turn off()
+Behaviors: Turn on, Turn off
 2-Clock
 States: Showing time, Silent (alarm off)
-Behaviors: Tick(), Alarm ring()
+Behaviors: Tick, Alarm ring
+Fridge
+3-States: Cool (normal temperature), Overheated
+Behaviors: Chill food, Auto-close door
