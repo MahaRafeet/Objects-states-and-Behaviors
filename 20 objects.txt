@@ -7,3 +7,6 @@ Behaviors: Tick, Alarm ring
 Fridge
 3-States: Cool (normal temperature), Overheated
 Behaviors: Chill food, Auto-close door
+Microwave
+4-States: Idle, Heating
+Behaviors: Start heating, Stop heating
