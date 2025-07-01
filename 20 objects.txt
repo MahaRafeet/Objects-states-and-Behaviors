@@ -37,3 +37,6 @@ Behaviors: Boot up, Process input
 13-Notebook
 States: Blank page, Filled with notes
 Behaviors: Write, Flip page
+14-Pen
+States: Cap on, Cap off
+Behaviors: Write, Leak ink
