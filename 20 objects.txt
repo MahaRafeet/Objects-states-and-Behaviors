@@ -34,3 +34,6 @@ Behaviors: Support objects, Hold meeting
 12-Computer/Laptop
 States: On, Sleep or Off
 Behaviors: Boot up, Process input
+13-Notebook
+States: Blank page, Filled with notes
+Behaviors: Write, Flip page
