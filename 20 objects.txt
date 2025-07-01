@@ -49,3 +49,6 @@ Behaviors: Hold papers, Bend
 18-Scissors
 States: Open, Closed
 Behaviors: Cut, Snip
+19-Calculator
+States: On, Off
+Behaviors: Calculate, Clear display
