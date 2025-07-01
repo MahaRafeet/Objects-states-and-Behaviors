@@ -55,3 +55,6 @@ Behaviors: Calculate, Clear display
 19-Whiteboard
 States: Clean, Written-on
 Behaviors: Erase, Write
+20-Backpack
+States: Empty, Full
+Behaviors: Carry, Zipper open/close
