@@ -22,3 +22,6 @@ Behaviors: Serve food, Stack
 8-Knife
 States: Sharp, Dull
 Behaviors: Cut, Slice
+9-Towel
+States: Dry, Wet
+Behaviors: Absorb water, Dry surface
