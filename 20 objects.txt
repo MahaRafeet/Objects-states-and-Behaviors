@@ -19,3 +19,6 @@ Behaviors: Hold liquid, Leak (if broken)
 7-Plate
 States: Clean, Dirty
 Behaviors: Serve food, Stack
+8-Knife
+States: Sharp, Dull
+Behaviors: Cut, Slice
