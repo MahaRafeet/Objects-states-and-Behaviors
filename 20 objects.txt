@@ -16,3 +16,6 @@ Behaviors: Spin blades, Change speed
 6-Mug
 States: Full, Empty
 Behaviors: Hold liquid, Leak (if broken)
+7-Plate
+States: Clean, Dirty
+Behaviors: Serve food, Stack
