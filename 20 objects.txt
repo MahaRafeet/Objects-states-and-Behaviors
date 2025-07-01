@@ -46,3 +46,6 @@ Behaviors: Staple papers, Jam staples
 16-Paperclip
 States: Clipped, Detached
 Behaviors: Hold papers, Bend
+18-Scissors
+States: Open, Closed
+Behaviors: Cut, Snip
