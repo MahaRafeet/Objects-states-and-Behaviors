@@ -31,3 +31,6 @@ Behaviors: Sweep, Dust
 11-Desk
 States: Empty, Occupied (with items)
 Behaviors: Support objects, Hold meeting
+12-Computer/Laptop
+States: On, Sleep or Off
+Behaviors: Boot up, Process input
