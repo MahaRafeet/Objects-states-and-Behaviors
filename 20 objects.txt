@@ -13,3 +13,6 @@ Behaviors: Start heating, Stop heating
 5-Fan
 States: On, Off
 Behaviors: Spin blades, Change speed
+6-Mug
+States: Full, Empty
+Behaviors: Hold liquid, Leak (if broken)
