@@ -43,3 +43,6 @@ Behaviors: Write, Leak ink
 15-Stapler
 States: Loaded (with staples), Empty
 Behaviors: Staple papers, Jam staples
+16-Paperclip
+States: Clipped, Detached
+Behaviors: Hold papers, Bend
