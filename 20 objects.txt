@@ -28,3 +28,6 @@ Behaviors: Absorb water, Dry surface
 10-Broom
 States: Upright, Horizontal (bristles-down)
 Behaviors: Sweep, Dust
+11-Desk
+States: Empty, Occupied (with items)
+Behaviors: Support objects, Hold meeting
