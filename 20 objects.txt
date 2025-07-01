@@ -25,3 +25,6 @@ Behaviors: Cut, Slice
 9-Towel
 States: Dry, Wet
 Behaviors: Absorb water, Dry surface
+10-Broom
+States: Upright, Horizontal (bristles-down)
+Behaviors: Sweep, Dust
