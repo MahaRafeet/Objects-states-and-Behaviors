@@ -1,0 +1,26 @@
+package Object;
+
+public class Knife {
+    boolean Sharpness;
+    String use;
+
+
+    public void CheckStatus() {
+        if (Sharpness) {
+            System.out.println("The Knife is Sharp");
+        } else {
+            System.out.println(" The knife is Dull");
+        }
+    }
+    public void use(){
+        if (use.equals("CUT")){
+            System.out.println(" the knife is cutting ");
+        }
+        else if (use.equals("SLICE")){
+            System.out.println(" the knife is slicing");
+        }
+        else {
+            System.out.println("Unknown Action");
+        }
+    }
+}
