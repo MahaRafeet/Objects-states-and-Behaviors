@@ -1,0 +1,23 @@
+package Object;
+
+public class Lamp {
+    boolean isOn;
+
+    public void turnOn() {
+        isOn = true;
+        System.out.println("Turning the lamp on");
+    }
+
+    public void turnOff() {
+        isOn = false;
+        System.out.println("Turning the lamp off");
+    }
+
+    public void checkStatus() {
+        if (isOn) {
+            System.out.println("The lamp is ON");
+        } else {
+            System.out.println("The lamp is OFF");
+        }
+    }
+}
