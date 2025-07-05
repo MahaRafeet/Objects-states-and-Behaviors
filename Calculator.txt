@@ -1,0 +1,24 @@
+package Object;
+
+public class Calculator {
+    boolean isOn;
+    double result;
+    public void setOn () {
+        if (isOn) {
+            System.out.println("The Calculator is already on");
+        }  else {
+            System.out.println("The Calculator is off");
+        }
+    }
+    // Calculate behavior: for example adds two numbers
+    public void calculate(double a, double b) {
+
+        result = a + b;
+        System.out.println("Result: " + result);
+    }
+    // Clear display behavior
+    public void clearDisplay() {
+        result = 0;
+        System.out.println("Display cleared. Result is now: " + result);
+    }
+}
