@@ -1,0 +1,21 @@
+package Object;
+
+public class Whiteboard {
+    boolean isBlank;
+
+    public void checkBlank() {
+        if (isBlank) {
+            System.out.println("The whiteboard is blank");
+        } else {
+            System.out.println("The whiteboard is not blank");
+        }
+    }
+
+    public void useEraser() {
+        if (isBlank) {
+            System.out.println("The whiteboard is blank, no need to erase");
+        } else {
+            System.out.println("The whiteboard is not blank, erase it");
+        }
+    }
+}
