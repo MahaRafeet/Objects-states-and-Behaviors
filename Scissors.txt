@@ -1,0 +1,22 @@
+package Object;
+
+public class Scissors {
+    boolean isOpen;
+    String scissorsStatus;
+
+    public void checkIsOpen() {
+        if (isOpen) {
+            System.out.println("The Scissors is open");
+        } else {
+            System.out.println("The Scissors is closed");
+        }
+    }
+
+    public void checkScissorsStatus() {
+        if (scissorsStatus.equals("Cut")) {
+            System.out.println("The Scissors is cutting");
+        } else {
+            System.out.println("The Scissors is not cutting");
+        }
+    }
+}
