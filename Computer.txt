@@ -1,0 +1,19 @@
+package Objects;
+
+public class Computer {
+
+    String computerState ;
+
+
+    public void SetComputerState(){
+
+        if ("ON".equalsIgnoreCase(computerState)){
+            System.out.println("The computer is ON");
+        }
+        else if ("OFF".equalsIgnoreCase(computerState)) {
+            System.out.println("The computer is OFF");}
+            else System.out.println("The computer is SLEEP ");
+        }
+
+    }
+
