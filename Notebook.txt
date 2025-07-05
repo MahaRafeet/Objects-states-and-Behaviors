@@ -1,0 +1,13 @@
+package Object;
+
+public class Notebook {
+    boolean isBlank;
+
+    public void checkBlanc() {
+    if (isBlank) {
+        System.out.println("The notebook is blank");
+    } else System.out.println("The notebook is not blank");
+    }
+
+
+}
