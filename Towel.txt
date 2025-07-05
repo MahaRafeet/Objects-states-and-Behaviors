@@ -1,0 +1,15 @@
+package Objects;
+
+public class Towel {
+    boolean isDry;
+    public void CheckTowelStatus(){
+        if (isDry)
+        {
+            System.out.println("The Towel is Dry");
+        }
+        else {
+            System.out.println(" The Towel is Wet");
+        }
+    }
+
+}
