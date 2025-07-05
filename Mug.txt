@@ -1,0 +1,15 @@
+package Object;
+
+public class Mug {
+
+    boolean MugLevel ;
+
+    public void setMugLevel(boolean MugLevel) {
+        if (MugLevel) {
+            System.out.println("There is Liquid in the mug ");}
+            else {
+                System.out.println("The mug  is empty ");
+            }
+        }
+    }
+
