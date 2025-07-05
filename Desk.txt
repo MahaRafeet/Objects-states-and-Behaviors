@@ -1,0 +1,22 @@
+package Objects;
+
+public class Desk {
+    String DeskEmpty;
+    Boolean MeetingsHold;
+
+    public void CheckDesk(){
+      if ("Empty".equals(DeskEmpty)){
+    System.out.println("The Desk is Empty");
+        }
+      else System.out.println("The disk is not Empty");
+}
+public void IsThereMeeting(){
+        if (MeetingsHold =true){
+            System.out.println("There is Meeting ");}
+            else {
+                System.out.println("There is NO Meeting");
+            }
+
+        }
+}
+
