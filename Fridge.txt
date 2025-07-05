@@ -1,0 +1,28 @@
+package Object;
+
+public class Fridge {
+    int cool;
+    int overheat;
+    boolean doorClosed;
+
+
+    public void SetCool(int cool) {
+        if (cool <0) {
+            System.out.println("fridge is cool");
+        } else {
+            System.out.println("fridge is not cool");
+        }}
+
+    void SetOverheat(int overheat) {
+        if (overheat >40)
+            System.out.println("fridge is overheat");
+        }
+
+    void autoCloseDoor() {
+        if (doorClosed) {
+            System.out.println("Door is already closed.");
+        } else {
+            System.out.println("Closing the door...");
+        }
+    }
+}
