@@ -1,0 +1,23 @@
+package Object;
+
+public class Stapler {
+    boolean isLoaded;
+    String staplerType;
+
+    public void checkStaples() {
+        if (isLoaded) {
+            System.out.println("Staples is loaded");
+        } else {
+            System.out.println("Staples is not loaded");
+        }
+    }
+    public void checkStaplerType() {
+        if (staplerType.equals("Paper Stapler")) {
+            System.out.println("Stapler Type is Paper Stapler");
+        } else if (staplerType.equals("Jam Stapler")) {
+            System.out.println("Stapler Type is Jam Stapler");
+        } else {
+            System.out.println("Stapler Type is not recognized");
+        }
+    }
+}
