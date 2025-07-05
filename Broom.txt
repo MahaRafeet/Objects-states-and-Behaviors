@@ -1,0 +1,24 @@
+package Objects;
+
+public class Broom {
+    boolean isHorizontal ;
+    String sweep;
+
+
+    public void CheckBroomPosition (){
+      if (isHorizontal){
+          System.out.println(" The Broom is Horizontal");
+      }
+      else {
+          System.out.println("The Broom is Vertical");
+        }
+
+
+    }
+    public void CheckBroomUsage(){
+        if (sweep.equals("sweep")){
+            System.out.println("Sweeping");}
+            else{
+            System.out.println("Not in use ");}
+        }
+}
