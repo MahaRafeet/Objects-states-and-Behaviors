@@ -1,0 +1,21 @@
+package Object;
+
+public class Backpack {
+    boolean isEmpty;
+    String zipperOn;
+    public void checkEmpty() {
+        if (isEmpty) {
+            System.out.println("The backpack is empty");
+        }  else {
+            System.out.println("The backpack is not empty");
+        }
+    }
+    public void checkZipperOn() {
+        if ("Open".equals(zipperOn)) {
+            System.out.println("The Zipper is open");
+        }else {
+            System.out.println("The Zipper is closed");
+        }
+    }
+
+}
