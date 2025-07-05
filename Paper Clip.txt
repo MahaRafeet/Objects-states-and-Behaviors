@@ -1,0 +1,13 @@
+package Object;
+
+    public class paperClip {
+        boolean isClip;
+
+        public void checkClipping() {
+            if (isClip) {
+                System.out.println("clip holds paper ");
+            } else {
+                System.out.println("Clip is Detached");
+            }
+        }
+    }
