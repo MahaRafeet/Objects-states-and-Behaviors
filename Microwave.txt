@@ -1,0 +1,22 @@
+package Object;
+
+public class Microwave {
+   boolean  Idle;
+   int heating ;
+
+   public void SetStatHeating (){
+       if (heating>0) {
+           System.out.println("The microwave is heating");}
+           else{
+               System.out.println("The microwave is OFF");
+       }
+   }
+   public void SetStatIdle (){
+       if(Idle) {
+           System.out.println("The microwave is idle");}
+           else{
+               System.out.println("The microwave is Heating");
+       }
+
+   }
+}
