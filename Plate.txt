@@ -1,0 +1,24 @@
+package Object;
+
+public class Plate {
+    boolean PlateStatus;
+    boolean PlateOccupied;
+
+    public void CheckPlateStatus(){
+        if(PlateStatus){
+            System.out.println("Plate is clean ");
+        }
+        else {
+            System.out.println("Plate is NOT clean ");
+        }
+
+    }
+    public void CheckPlateOccupied(){
+        if(PlateOccupied){
+            System.out.println("Plate is Serving food ");
+        }
+        else{
+            System.out.println("Plate is NOT serving food ");
+        }
+    }
+}
