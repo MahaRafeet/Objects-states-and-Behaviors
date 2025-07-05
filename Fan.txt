@@ -1,0 +1,22 @@
+package Object;
+
+public class Fan {
+    boolean isON;
+    int Speed;
+
+    public void CheckStatus(boolean isON) {
+        if (isON) {
+            System.out.println("fan is ON");
+        } else {
+            System.out.println("The Fan is stop");
+        }
+    }
+
+    public void CheckSpeed(int Speed) {
+        if (Speed >= 1 && Speed <= 5) {
+            System.out.println("The fan is ON and the speed is : ");
+        } else if (Speed == 0) {
+            System.out.println("Fan turned OFF");
+        } else System.out.println("Invalid speed. Please choose 0 to 5.");
+    }
+}
