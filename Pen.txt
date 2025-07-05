@@ -1,0 +1,26 @@
+package Object;
+
+public class pen {
+    boolean isCapOn;
+    double inkLevel;
+
+    public void checkCapStatus() {
+        if (isCapOn) {
+            System.out.println("The pen cap is ON");
+        } else {
+            System.out.println("The pen cap is not ON");
+        }
+    }
+
+    public void checkInkLevel() {
+        if (inkLevel == 1) {
+            System.out.println("The Pen is full of Ink");
+        } else if (inkLevel > 0.1 && inkLevel < 1) {
+            System.out.println("The Pen has Ink");
+        } else if (inkLevel >= 0 && inkLevel <= 0.1) {
+            System.out.println("The Pen is Low on Ink");
+        } else {
+            System.out.println("Invalid ink level. Please enter a value from 0 to 1");
+        }
+    }
+}
